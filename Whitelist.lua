@@ -45,4 +45,4 @@ end
 
 print("✅ Access granted - continuing with script...")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CodesisFunny/hub/refs/heads/main/main.lua"))()
