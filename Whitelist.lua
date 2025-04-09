@@ -4,7 +4,7 @@ local function checkWhitelist()
     print("🔍 Checking whitelist status...")
 
     local success, response = pcall(function()
-        return game:HttpGet("https://raw.githubusercontent.com/CodesisFunny/vfy/refs/heads/main/vfy.json")
+        return game:HttpGet("https://raw.githubusercontent.com/CodesisFunny/hub/refs/heads/main/Data.json")
     end)
 
     if success then
